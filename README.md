@@ -15,6 +15,6 @@ Finally, `close-issues.js` takes a label name and a message file, and reading a
 list of ids from standard input closes each issue, labels it and adds a
 comment with the contents of the message file.
 
-Currently `close-issues.js` waits half a second after labeling the issue,
-one second after adding a comment and one and half seconds after closing the
+Currently `close-issues.js` waits one and a half seconds after labeling the issue,
+one and a half seconds after adding a comment and two seconds after closing the
 issue.

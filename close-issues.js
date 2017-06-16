@@ -28,14 +28,14 @@ async function main (args) {
       number: id,
       labels: [ label ]
     })
-    await sleep(500)
+    await sleep(1500)
     await github.issues.createComment({
       owner: 'npm',
       repo: 'npm',
       number: id,
       body: message
     })
-    await sleep(1000)
+    await sleep(1500)
     await github.issues.edit({
       owner: 'npm',
       repo: 'npm',
@@ -43,6 +43,6 @@ async function main (args) {
       state: 'closed',
     })
     console.log(id)
-    await sleep(1500)
+    await sleep(2000)
   })
 }
