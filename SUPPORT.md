@@ -1,0 +1,3 @@
+We're closing this support issue as it has gone three days without activity.  The npm CLI team itself does not provide support via this issue tracker, but we are happy when users help each other here.  In our experience once a support issue goes dormant it's unlikely to get further activity.  If you're still having problems, you may be better served by joining [package.community](https://package.community/) and asking your question there.
+
+For more information about our new issue aging policies and why we've instituted them please see our [blog post](http://blog.npmjs.org/post/161832149430/npm-the-npm-github-issue-tracker-and-you).

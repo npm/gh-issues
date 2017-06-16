@@ -1,0 +1,21 @@
+{
+  "name": "gh-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "funstream": "file:../funstream",
+    "github": "^9.2.0",
+    "moment": "^2.18.1",
+    "ndjson": "^1.5.0",
+    "signal-exit": "^3.0.2",
+    "split": "^1.0.0"
+  }
+}
