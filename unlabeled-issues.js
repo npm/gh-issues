@@ -15,6 +15,8 @@ async function main () {
     return moreThanDaysAgo(7, issue.updated_at)
   }).filter(issue => {
     return issue.labels.length === 0
+  }).filter(issue => {
+    return !/npm[@ ]?[v]?5/.test(issue.title) || !/npm[@ ]?[v]?5/.test(issue.body)
   }).forEach(issue => {
     console.log(issue.number)
   })

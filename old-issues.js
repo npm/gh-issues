@@ -19,6 +19,8 @@ async function main () {
   }).filter(issue => {
     const labels = issue.labels.map(issue => issue.name)
     return labels.length && !labels.some(l => safeTags.some(t => t === l))
+  }).filter(issue => {
+    return !/npm[@ ]?[v]?5/.test(issue.title) || !/npm[@ ]?[v]?5/.test(issue.body)
   }).forEach(issue => {
     console.log(issue.number)
   })
