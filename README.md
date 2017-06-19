@@ -1,7 +1,7 @@
 # Batch Github Issue Closer
 
 We had an unusual need.  1000s of issues we wanted to close on our issue
-tracker.  So I wrote this code to do that.
+tracker.  So I wrote this code to do that. I talked [about this project](http://blog.npmjs.org/post/161832149430/npm-the-npm-github-issue-tracker-and-you) in a blog post, so if you're wondering more about the reasoning that's the place to look.
 
 `list.js` asks github for every issue that's open, has no assignee and no
 milestone and generates `issue-list.ndjson` and `pr-list.ndjson` from that. 
