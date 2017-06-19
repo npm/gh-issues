@@ -1,6 +1,6 @@
 # Batch Github Issue Closer
 
-We had an usual need.  1000s of issues we wanted to close on our issue
+We had an unusual need.  1000s of issues we wanted to close on our issue
 tracker.  So I wrote this code to do that.
 
 `list.js` asks github for every issue that's open, has no assignee and no
