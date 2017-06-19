@@ -7,7 +7,7 @@ const Bluebird = require('bluebird')
 require('./app')(main)
 
 // don't let this filter close issues
-const safeTags = [ 'bug', 'big-bug', 'feature-request', 'npm5' ]
+const safeTags = [ 'bug', 'big-bug', 'feature-request' ]
 
 function moreThanDaysAgo (days, date) {
   return moment(date).isBefore(moment().subtract(days, 'days'))
