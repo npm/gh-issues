@@ -16,7 +16,7 @@ async function main () {
   }).filter(issue => {
     return issue.labels.length === 0
   }).filter(issue => {
-    return !/npm[@ ]?[v]?5/.test(issue.title) || !/npm[@ ]?[v]?5/.test(issue.body)
+    return !/npm[@ ]?(?:v(?:ersion\s))?5/.test(issue.title) || !/npm[@ ]?(?:v(?:ersion\s))?5/.test(issue.body)
   }).forEach(issue => {
     console.log(issue.number)
   })
